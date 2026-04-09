@@ -24,7 +24,7 @@ class PlannerMux:
     def status_callback(self, msg):
         # Se o status mudar avisa no terminal
         if self.use_teb != msg.data:             
-            self.use_teb = msg.data
+            self.use_teb = True
 
     def teb_callback(self, msg):
         # Se o mux disse que tem dinamico, passa o comando do TEB
