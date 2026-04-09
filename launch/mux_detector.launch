@@ -1,5 +1,4 @@
 <launch>
-     <node pkg="jackal_barn_navigation" type="supervisor_mux.py" name="planner_supervisor_mux" output="screen" />
+     <node pkg="mux_detector" type="supervisor_mux.py" name="planner_supervisor_mux" output="screen" />
         
-     </node>
 </launch>
